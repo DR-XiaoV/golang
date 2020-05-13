@@ -15,7 +15,7 @@ func main() {
 		a = iota
 		b
 		c
-		d = 199
+		d = 19
 		e
 		f = iota
 		g
