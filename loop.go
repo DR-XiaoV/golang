@@ -1,21 +1,14 @@
 package main
 
-func main(){
-
-	// sum := 0
-	// for i := 0; i < 10; i++{
-	// 	sum += i
-	// }
-	// print(sum)
-
-	// sub := 1
-	// for ; sub < 10; {
-	// 	sub += sub
-	// }
-	// print(sub)
-
-	for sub < 10 {
-		sub += sub
+func main() {
+	for i := 1; i < 10; i++ {
+		for j := 1; j <= i; j++ {
+			print(j)
+			print("*")
+			print(i)
+			print("=")
+			print(i*j, "   ")
+		}
+		println("")
 	}
-	print(sub)
 }
