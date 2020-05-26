@@ -5,6 +5,15 @@ func main(){
 	var ip *int  // 指针变量
 
 	ip = &a     // 指针地址
-
 	println(&a,ip,*ip)
+	foo()
+}
+
+func fun(){
+	const all int = 9
+}
+
+func foo (){
+	const name string = "chujian"
+	print(name)
 }
